@@ -29,6 +29,15 @@ The project demonstrates:
 - **Scalability**: Migrating workloads to the cloud to handle increased traffic.
 - **Monitoring**: Real-time tracking of application metrics to trigger migration.
 
+Result:
+- Runs a Dockerized Flask app locally
+- Measures request rate
+- When load spikes:
+  - Triggers EC2 instance to start
+  - Pulls container from ECR
+  - Reroutes or transfers workload to cloud container
+- Demonstrates actual workload migration, not just data offloading
+
 ## Features
 - Local Flask application running in a Docker container, exposing a `/compute` endpoint for processing requests and a `/metrics` endpoint for monitoring RPM.
 - Automated monitoring script (`monitor_and_migrate.py`) that checks RPM and starts an EC2 instance when the load exceeds 100 RPM.

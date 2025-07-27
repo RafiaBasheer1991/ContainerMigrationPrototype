@@ -257,17 +257,9 @@ The system architecture consists of:
 - **Cost Optimization**: Automatically terminate EC2 instances when load decreases.
 
 ## Authors
-This project was developed by [Your Name(s)] as part of a Master's-level Cloud Computing course. Contributions and feedback are welcome!
+This project was developed by Rafia basheer, Fauzia Ehsan, Muneeb Ahmed, Tauqeer Ahmed Shaikh, Suhaib Khalid. Contributions and feedback are welcome!
 
 ## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
+This project is licensed under the MIT License. 
 ---
 
-### Notes for Your Exam Presentation
-- **Highlight Key Concepts**: Emphasize containerization (Docker), cloud automation (AWS CLI, EC2), and scalability (migration based on load).
-- **Demonstrate Live**: If possible, show the local app, simulate load, trigger migration, and reroute traffic to EC2 during the presentation.
-- **Explain Troubleshooting**: Discuss common issues (e.g., metrics endpoint failures, AWS CLI permissions) and how you resolved them.
-- **Link to README**: Reference this README in your GitHub repository for examiners to review detailed setup and troubleshooting steps.
-
-This README should serve as a comprehensive guide for your GitHub repository and provide a clear narrative for your cloud computing exam. If you need further refinements or specific sections tailored for your presentation, let me know!
